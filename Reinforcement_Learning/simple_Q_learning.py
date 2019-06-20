@@ -10,7 +10,7 @@ env = gym.make('FrozenLake-v0', is_slippery=IS_SLIPPERY)
 Q = np.zeros([env.observation_space.n, env.action_space.n])
 
 EPISODES = 100000
-LEARNING_RATE = 0.1
+LEARNING_RATE = 0.3
 DISCOUNT_FACTOR = 0.95
 EPSILON = 0.2
 
@@ -64,7 +64,7 @@ print(Q)
 # FFFH   8  9 10 11
 # HFFG  12 13 14 15
 
-# Example output with is_slippery=False:
+# Example output with is_slippery=False and punishing standstill:
 # Action/Pos    Left       Down       Right      Up
 #  *0 S     [[0.63509189 *0.77378094 0.6983373  0.63509189]
 #   1        [0.73509189 0.          0.66342043 0.5983373 ]
