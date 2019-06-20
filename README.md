@@ -1,4 +1,4 @@
-# iX_Tutorials
+# iX Tutorials
 Repository for programmed tutorials from the iX magazine (https://www.heise.de/ix/)
 
 # Reinforcment Learning
