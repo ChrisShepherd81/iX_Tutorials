@@ -1,2 +1,2 @@
 # iX_Tutorials
-Repository for iX tutorials
+Repository for programmed tutorials from the iX magazine (https://www.heise.de/ix/)
